@@ -21,7 +21,7 @@ class Thingy(BaseModel):
 
     snippet_text: Annotated[
         str, Field(description="Snippet text", examples=["Hello, world"])
-    ] = "... no snippet text ..."
+    ] = "todo"
 
 
 """A 'Database' of Thingies (... this is *not* a database! :)"""
