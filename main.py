@@ -24,7 +24,7 @@ class Thingy(BaseModel):
     ] = ""
 
 
-"""A 'Database' of Thingies"""
+"""A 'Database' of Thingies (... this is *not* a database! :)"""
 thingies_db: dict[str, Thingy] = {}
 
 
