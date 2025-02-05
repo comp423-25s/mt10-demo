@@ -13,7 +13,7 @@ app = FastAPI()
 class Thingy(BaseModel):
     """A Thingy!"""
 
-    id: Annotated[str, Field(description="Resource ID", examples=["1234"])] = ""
+    id: Annotated[str, Field(description="Resource ID", examples=["1234"])]
 
     redirect_url: Annotated[
         str, Field(description="URL redirected to", examples=["https://csxl.unc.edu"])
